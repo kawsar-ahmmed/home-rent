@@ -1,0 +1,28 @@
+{
+    "name":{
+        "HeaderDescriptions": {
+            "title": "Stunning ocean views, luxurious amenities, and a perfect vacation getaway.",
+            "details": "This luxurious villa offers breathtaking ocean views from every room. With a spacious living area, modern kitchen, private pool, and direct beach access, it provides the ultimate vacation experience. The villa is equipped with high-end amenities, including a gym, spa, and entertainment room. Whether you're looking for relaxation or adventure, this villa has it all."
+        },
+        "AboutDescription": {
+            "title": "Escape to a peaceful cottage surrounded by nature and enjoy tranquility.",
+            "details": "Nestled in a serene wooded area, this cozy cottage offers a peaceful retreat. It features a comfortable living space, fully equipped kitchen, and a charming outdoor patio. The surrounding nature provides opportunities for hiking, birdwatching, and relaxation. Unwind by the fireplace or take a stroll through the nearby trails. This cottage is perfect for nature lovers seeking a quiet and rejuvenating getaway."
+        }
+    },
+    {
+        "services": [
+            {
+                "name": "Balcony with City Views",
+                "description": "Relax and enjoy stunning city views from the private balcony."
+            },
+            {
+                "name": "Fully Equipped Kitchen",
+                "description": "Prepare delicious meals in the modern and fully equipped kitchen."
+            },
+            {
+                "name": "Convenient Location",
+                "description": "Experience easy access to restaurants, shops, and attractions in the city."
+            }
+        ]
+    }
+}

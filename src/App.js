@@ -1,24 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import { createContext, useState } from 'react';
+// import logo from './logo.svg';
+import { Route, Routes } from 'react-router-dom';
+import Home from './component/Home/Home';
+import Header from './component/Header/Herdear'
+
+export const HomeContext = createContext();
 
 function App() {
+  const [home, seteHome] = useState(HomeContext);
+  // console.log(home)
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <HomeContext.Provider value={[home, seteHome]}>
+      <Header></Header>
+      <Routes>
+        <Route path='/' element={<Home></Home>}></Route>
+        <Route path='/home' element={<Home></Home>}></Route>
+        <Route path='/about' element={<Home></Home>}></Route>
+        <Route path='/explore' element={<Home></Home>}></Route>
+      </Routes>
+    </HomeContext.Provider>
+
   );
 }
 

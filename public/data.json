@@ -1,0 +1,63 @@
+[
+    {
+        "title": "Luxury Villa with Ocean View",
+        "short_description": "Stunning villa with breathtaking ocean views. Perfect for a luxurious vacation.",
+        "price": 500,
+        "id": 1,
+        "image": "https://i.ibb.co/QdmVbZ4/7-SQ-1024x1024-1.webp",
+        "innerImage_1:": "https://i.ibb.co/RTdCpjc/11.jpg",
+        "innerImage_2:": "https://i.ibb.co/P6DT8L6/854-longfellow-avenue-2.webp",
+        "innerImage_3:": "https://i.ibb.co/z77F6Jd/a242132a680f2a865d5485623bd9895b-texas-homes-swimming-pools.jpg"
+    },
+    {
+        "title": "Cozy Cottage in the Woods",
+        "short_description": "Escape to this charming cottage nestled in the serene woods. Ideal for nature lovers.",
+        "price": 150,
+        "id": 2,
+        "image": "https://i.ibb.co/Sn52K42/AK1CZ8.jpg",
+        "innerImage_1:": "https://i.ibb.co/LtYqvSn/ba1279e242019a8d9971ce6aaaa886d9.jpg",
+        "innerImage_2:": "https://i.ibb.co/fDQwcnk/Baranduda1.jpg",
+        "innerImage_3:": "https://i.ibb.co/MVhBjDD/beautiful-modern.jpg"
+    },
+    {
+        "title": "Modern Apartment in the City",
+        "short_description": "Experience urban living in this stylish apartment located in the heart of the city.",
+        "price": 200,
+        "id": 3,
+        "image": "https://i.ibb.co/t336ZVb/depositphotos-70392471-stock-photo-dream-house-back.webp",
+        "innerImage_1:": "https://i.ibb.co/PwZ7CTZ/desktop-wallpaper-decoration-nice-house-new-big-houses-with-beautiful-pool-beautiful-houses.jpg",
+        "innerImage_2:": "https://i.ibb.co/PwWjYLY/home-extension-with-modern-farmhouse-flair-model-remodel-img-1f31755e0f7f890e-4-5750-1-34beba8.jpg",
+        "innerImage_3:": "https://i.ibb.co/gTG8f9F/image-asset.jpg"
+    },
+    {
+        "title": "Beachfront Bungalow",
+        "short_description": "Enjoy direct access to the beach from this cozy bungalow. The perfect beach retreat.",
+        "price": 300,
+        "id": 4,
+        "image": "https://i.ibb.co/mHrNFS7/istockphoto-147205632-612x612.jpg",
+        "innerImage_1:": "https://i.ibb.co/1nWGYjD/istockphoto-1150545984-612x612.jpg",
+        "innerImage_2:": "https://i.ibb.co/JrDXwwK/modern-house-pool-external-view-dusk-79735565.jpg",
+        "innerImage_3:": "https://i.ibb.co/N2bkNnR/Most-Beautiful-Houses-In-The-World-House-M-featured-on-architecture-beast-35.jpg"
+    },
+    {
+        "title": "Mountain View Chalet",
+        "short_description": "Unwind in this picturesque chalet with breathtaking mountain views. A true alpine escape.",
+        "price": 250,
+        "id": 5,
+        "image": "https://i.ibb.co/54gFbmY/Most-Beautiful-Houses-In-The-World-House-M-featured-on-architecture-beast-39.jpg",
+        "innerImage_1:": "https://i.ibb.co/C014D0h/nice-home-design.jpg",
+        "innerImage_2:": "https://i.ibb.co/s5zNmnN/nice-house-blog-pic.jpg",
+        "innerImage_3:": "https://i.ibb.co/Wv7VNdp/nice-house.jpg"
+    },
+    {
+        "title": "Spacious Country House",
+        "short_description": "Experience the tranquility of the countryside in this spacious and charming house.",
+        "price": 350,
+        "id": 6,
+        "image": "https://i.ibb.co/9vwjrRb/Practical-Homes-Double-Storey-Sahara-Facade-DG-e1625965491483.webp",
+        "innerImage_1:": "https://i.ibb.co/80ZYcHp/right-side-view.jpg",
+        "innerImage_2:": "https://i.ibb.co/qyfjNh0/sellwood-wholehouse-16.jpg",
+        "innerImage_3:": "https://i.ibb.co/6gPgWRV/The-Strait-House-The-Cape-low-res-122-scaled.jpg"
+    }
+    
+]

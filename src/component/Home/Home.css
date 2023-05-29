@@ -1,0 +1,49 @@
+.background-img {
+    background-image: url("/src/Assets/home.png");
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    /* Center the image within the element */
+}
+
+.background-img {
+    position: relative;
+}
+
+.background-img::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+}
+
+.header-info {
+    padding: 360px 0;
+}
+
+.header-info h1 {
+    color: #fff;
+    text-align: center;
+}
+
+.header-info p {
+    color: #fff;
+    text-align: center;
+    margin: auto;
+}
+.about-main {
+    padding: 120px 0;
+}
+.about-main h2 {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.about-main p {
+    font-size: 16px;
+    line-height: 28px;
+}
