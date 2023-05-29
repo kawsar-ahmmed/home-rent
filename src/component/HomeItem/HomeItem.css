@@ -1,0 +1,37 @@
+.home-items {
+    border-bottom: 1px solid #000;
+    margin-bottom: 35px;
+    padding: 10px;
+}
+
+.home-items img {
+    margin-bottom: 15px;
+    height: 294px;
+    width: 100%;
+}
+
+.home-items h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.home-items p {
+
+    font-size: 16px;
+}
+.propoerty-button {
+    margin: 20px 0px 10px 0;
+}
+.propoerty-button button {
+    border-radius: 4px;
+    padding: 8px 22px;
+    border: none;
+    background: #1CAF83;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+}
+.propoerty-button button:hover {
+    background: #097756;
+}

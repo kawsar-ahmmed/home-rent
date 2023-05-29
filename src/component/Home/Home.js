@@ -19,8 +19,8 @@ const Home = () => {
         <div>
             <Head></Head>
             <About />
-            <Container>
-                <Row>
+            <Container className='item-fixed'>
+                <Row >
                     {
                         Array.isArray(home) ? (
                             home.map((home) => (
