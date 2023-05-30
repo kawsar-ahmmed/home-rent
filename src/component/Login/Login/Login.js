@@ -3,11 +3,13 @@ import './Login.css'
 import { Button, Col, Container, Form, Row } from 'react-bootstrap';
 import { useNavigate } from 'react-router-dom';
 // import Google__G__Logo from '../../Assets/logo.png'
-import gLogo from '../../../Assets/Google__G__Logo.svg.webp'
+import SocialLogin from '../SocialLogin/SocialLogin';
+
 
 
 
 const Login = () => {
+
     const navigate = useNavigate();
     return (
         <section className='from-section-main'>
@@ -42,13 +44,8 @@ const Login = () => {
                                 <Button variant="primary" type="submit" className='button-login'>
                                     Submit
                                 </Button>
-                                <div className="Socail-button">
-                                    <Button className='Socail-button-google'> 
-                                    <img width={25} src={gLogo} alt="" />
-                                    Login With Google
-                                    </Button>
-                                </div>
                             </Form>
+                            <SocialLogin></SocialLogin>
                         </Col>
                     </Row>
                 </div>

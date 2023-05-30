@@ -7,8 +7,12 @@ import HomeDetails from './component/HomeDetails/HomeDetails';
 import NotFound from './component/NotFound/NotFound';
 import Login from './component/Login/Login/Login';
 import Register from './component/Login/Register/Register';
+import { getAuth } from 'firebase/auth';
+import app from './firebase.init';
 
 export const HomeContext = createContext();
+
+// const auth = getAuth(app);
 
 function App() {
   const [home, seteHome] = useState(HomeContext);

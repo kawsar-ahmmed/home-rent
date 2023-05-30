@@ -2,11 +2,13 @@ import React from 'react';
 import { Button, Col, Container, Form, Row } from 'react-bootstrap';
 import { useNavigate } from 'react-router-dom';
 import gLogo from '../../../Assets/Google__G__Logo.svg.webp'
+import SocialLogin from '../SocialLogin/SocialLogin';
 
 
 
 const Register = () => {
     const navigate = useNavigate();
+    // const newValur = (event.mail.value)
 
     return (
         <section className='from-section-main'>
@@ -45,13 +47,8 @@ const Register = () => {
                                 <Button variant="primary" type="submit" className='button-login'>
                                     Submit
                                 </Button>
-                                <div className="Socail-button">
-                                    <Button className='Socail-button-google'> 
-                                    <img width={25} src={gLogo} alt="" />
-                                    Login With Google
-                                    </Button>
-                                </div>
                             </Form>
+                            <SocialLogin></SocialLogin>
                         </Col>
                     </Row>
                 </div>
