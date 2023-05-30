@@ -18,11 +18,13 @@
     display: flex;
     height: 450px;
 }
+
 .from-content h1 {
     color: #fff;
     font-weight: bold;
     font-size: 42px;
 }
+
 .from-content p {
     color: #fff;
     font-size: 16px;
@@ -39,12 +41,33 @@
     justify-content: center;
 }
 
-.from-full input {
+.from-full input:not([type="checkbox"]) {
     background: transparent;
     border: none;
     border-bottom: 1px solid #fff;
     color: #fff;
 }
+
+input[type="checkbox"] {
+    border-color: #000;
+    background: #fff;
+    /* transform: scale(3.3); */
+    /* Apply border radius */
+    border-radius: 0 !important;
+}
+
+input[type="checkbox"]:focus,
+input[type="checkbox"]:active {
+    /* Reset active/focus styles */
+    
+    /* Add any other styles as needed */
+}
+
+
+input[type="checkbox"]:checked {
+    background: green;
+}
+
 
 .form-control:focus {
     color: #fff !important;
@@ -90,6 +113,7 @@
     font-weight: bold;
     cursor: pointer;
 }
+
 .Socail-button-google img {
     margin-right: 15px;
 }

@@ -10,8 +10,9 @@ import gLogo from '../../../Assets/Google__G__Logo.svg.webp'
 
 
 const SocialLogin = () => {
-    const [signInWithGoogle, user, loading, error] = useSignInWithGoogle(auth);
+    const [signInWithGoogle, user, error] = useSignInWithGoogle(auth);
     const navigate = useNavigate();
+
     let errorElement;
     if (error) {
         errorElement =
@@ -37,3 +38,4 @@ const SocialLogin = () => {
 };
 
 export default SocialLogin;
+
