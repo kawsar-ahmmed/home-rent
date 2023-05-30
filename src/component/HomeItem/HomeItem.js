@@ -15,9 +15,9 @@ const HomeItem = ({ home }) => {
                 <h3>{title}</h3>
                 <p>Price: {short_description}</p>
                 <h4>Price: ${price} </h4>
-                <div className="propoerty-button">
+                {/* <div className="propoerty-button">
                     <button onClick={()=> navigate(`/service-details/${id}`)}>View Property</button>
-                </div>
+                </div> */}
             </div>
         </Col>
 

@@ -15,6 +15,7 @@ const Herdear = () => {
                         <NavLink to="/home">Home</NavLink>
                         <NavLink to="/about">About</NavLink>
                         <NavLink to="/explore">Explore</NavLink>
+                        <NavLink to="/login">Login</NavLink>
 
                     </Nav>
                 </Navbar.Collapse>
