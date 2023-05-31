@@ -16,10 +16,8 @@ const Login = () => {
     const handleLogin = event => {
         event.preventDefault();
         console.log(event.target.email.value)
-        const agree= event.target.trams.checked;
-        if(agree){
-            signInWithEmailAndPassword(email, password);
-        }
+        // const agree= event.target.trams.checked;
+        signInWithEmailAndPassword(email, password);
     }
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
